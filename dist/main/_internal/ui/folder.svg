@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
-  <!-- Folder outline shape -->
-  <path d="M12,14 c0,-1.5 1,-2.5 2.5,-2.5 h10 l4,4 h11 c1.5,0 2.5,1 2.5,2.5 v18 c0,1.5 -1,2.5 -2.5,2.5 h-28 c-1.5,0 -2.5,-1 -2.5,-2.5 z" fill="none" stroke="#12131a" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Inner Arrow pointing into the folder -->
-  <path d="M24,19 v8 M20,23 l4,4 l4,-4" fill="none" stroke="#12131a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>

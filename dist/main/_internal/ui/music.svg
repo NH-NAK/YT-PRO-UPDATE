@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
-  <!-- Double Music Note -->
-  <path d="M18,32 A4,4 0 1,1 14,28 H18 V12 H34 V24 A4,4 0 1,1 30,20 H34 V16 H18" fill="none" stroke="#00ff66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Soundwaves/signals -->
-  <path d="M38,20 C40,22 40,26 38,28" fill="none" stroke="#00d2ff" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M42,16 C46,20 46,28 42,32" fill="none" stroke="#00d2ff" stroke-width="2" stroke-linecap="round"/>
-</svg>

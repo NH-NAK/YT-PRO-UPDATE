@@ -1,0 +1,7 @@
+# Exclude large build packages
+tools.zip
+patch.zip
+build/
+dist/
+*.spec
+temp_icon.png
