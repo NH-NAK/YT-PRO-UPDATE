@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LicenseDialog</class>
+ <widget class="QWidget" name="LicenseDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>476</width>
+    <height>299</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>License Activation</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+    #LicenseDialog {
+        background-color: #12131a;
+        border: 2px solid #00ff66;
+        border-radius: 14px;
+    }
+    #cardCloseBtn {
+        background-color: transparent;
+        color: #00ff66;
+        border: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #cardCloseBtn:hover {
+        color: #ff0055;
+    }
+    #lockPassInput {
+        background-color: #1a1b24;
+        color: #e2e8f0;
+        border: 1px solid #00ff66;
+        border-radius: 6px;
+        padding: 10px;
+        font-size: 13px;
+    }
+    #unlockBtn {
+        background-color: #00ff66;
+        color: #12131a;
+        font-weight: bold;
+        border-radius: 6px;
+        padding: 10px 20px;
+        font-size: 13px;
+        border: none;
+    }
+    #unlockBtn:hover {
+        background-color: #00dd55;
+    }
+    #lockTitle {
+        color: #00ff66;
+        font-family: 'Outfit', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+    }
+    #lockSubtitle {
+        color: #e2e8f0;
+        font-size: 13px;
+    }
+   </string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>12</number>
+   </property>
+   <property name="leftMargin">
+    <number>30</number>
+   </property>
+   <property name="topMargin">
+    <number>15</number>
+   </property>
+   <property name="rightMargin">
+    <number>30</number>
+   </property>
+   <property name="bottomMargin">
+    <number>25</number>
+   </property>
+   <item>
+    <layout class="QHBoxLayout" name="headerLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cardCloseBtn">
+       <property name="text">
+        <string>×</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="lockTitle">
+     <property name="text">
+      <string>LICENSE ACTIVATION REQUIRED</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lockSubtitle">
+     <property name="text">
+      <string>Enter your product license key to unlock YT-Downloader Pro</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="lockPassInput">
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Enter License Key</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="unlockBtn">
+     <property name="text">
+      <string>ACTIVATE APPLICATION</string>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignmentFlag::Center">
+    <widget class="QLabel" name="keyIconLabel">
+     <property name="minimumSize">
+      <size>
+       <width>48</width>
+       <height>48</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>48</width>
+       <height>48</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>ui/key.svg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

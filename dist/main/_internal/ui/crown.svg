@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Glowing Crown -->
+  <path d="M10,38 L8,18 L18,28 L24,14 L30,28 L40,18 L38,38 Z" fill="none" stroke="#00ff66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="12" y1="34" x2="36" y2="34" stroke="#00d2ff" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

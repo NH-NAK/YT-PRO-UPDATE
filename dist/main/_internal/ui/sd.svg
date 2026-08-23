@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Screen Frame -->
+  <rect x="6" y="8" width="36" height="26" rx="3" fill="none" stroke="#00ff66" stroke-width="3"/>
+  <path d="M18,34 L16,40 H32 L30,34" fill="none" stroke="#00ff66" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Play triangle in center -->
+  <polygon points="21,17 29,21 21,25" fill="#00d2ff"/>
+</svg>
