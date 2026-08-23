@@ -1,0 +1,13 @@
+{
+  "version": "1.0.3",
+  "name": "YT-Downloader Pro",
+  "release_date": "2026-08-23",
+  "download_url": "https://raw.githubusercontent.com/NH-NAK/YT-PRO-UPDATE/refs/heads/main/patch.zip?token=GHSAT0AAAAAAEF3ONCGSGEJD2D37M3KVS462UKMD3Q",
+  "changelog": [
+    "HEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
+    "Enhanced security checks for GUI layout and credential integrity verification",
+    "Optimized YouTube video downloading and metadata analysis engine",
+    "Resolved socket accept warning log during application shutdown"
+  ],
+  "description": "Premium YouTube Video Downloader Pro with secure HWID licensing."
+}
